@@ -1,9 +1,20 @@
 function Navbar() {
   return (
-    <nav className="bg-red-500">
-      <div className="">
-        <h1>Hello</h1>
-        <img src="" alt="" />
+    <nav className="flex items-center p-5 lg:px-10">
+      <div className="basis-1/2">
+        <img
+          src="https://raw.githubusercontent.com/aryanxarora/proview/df92b7e3f2484501c153e55c10bd8e89a12ac75f/src/images/logo.svg"
+          alt=""
+          width="150px"
+        />
+      </div>
+      <div className="basis-1/2 flex justify-end">
+        <a
+          href=""
+          className="text-sm bg-black text-white font-bold px-5 py-2 rounded-3xl"
+        >
+          Schedule Viewing
+        </a>
       </div>
     </nav>
   );
