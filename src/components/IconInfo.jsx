@@ -5,7 +5,7 @@ import CalendarViewMonthRoundedIcon from "@mui/icons-material/CalendarViewMonthR
 
 function IconInfo() {
   return (
-    <div className="flex gap-10 md:w-full text-slate-500 animate-pulse">
+    <div className="flex gap-10 md:w-full text-slate-500">
       <div>
         <HomeRoundedIcon fontSize="medium" />
         <p>7 Rooms</p>
