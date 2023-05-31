@@ -25,7 +25,7 @@ function Listing() {
   return (
     <div className="md:flex xl:mx-20">
       <div
-        className="h-96 md:h-auto bg-cover bg-center bg-no-repeat bg-slate-200 p-5 m-5 rounded-2xl flex flex-col items-bottom justify-end pb-10 md:basis-1/2 xl:mr-10"
+        className="h-96 md:h-auto bg-cover bg-center bg-no-repeat bg-slate-200 p-5 m-5 rounded-2xl flex flex-col items-bottom justify-end pb-10 md:basis-1/2 xl:mr-10 duration-700"
         style={{
           backgroundImage: bg,
         }}

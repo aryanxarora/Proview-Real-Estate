@@ -5,21 +5,21 @@ import CalendarViewMonthRoundedIcon from "@mui/icons-material/CalendarViewMonthR
 
 function IconInfo() {
   return (
-    <div className="flex gap-10 md:w-full text-slate-500">
+    <div className="grid grid-cols-2 gap-y-5 lg:w-1/2 lg:gap-y-10 text-slate-500">
       <div>
         <HomeRoundedIcon fontSize="medium" />
-        <p>7 Rooms</p>
+        <p className="text-md">7 Rooms</p>
       </div>
       <div>
-        <KingBedRoundedIcon />
+        <KingBedRoundedIcon fontSize="medium" />
         <p>2 Bed(s)</p>
       </div>
       <div>
-        <ShowerRoundedIcon />
+        <ShowerRoundedIcon fontSize="medium" />
         <p>2 Bath(s)</p>
       </div>
       <div>
-        <CalendarViewMonthRoundedIcon />
+        <CalendarViewMonthRoundedIcon fontSize="medium" />
         <p>828.28 sq.ft.</p>
       </div>
     </div>
