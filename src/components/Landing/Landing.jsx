@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import Fade from "react-reveal/Fade";
 import LandingTile from "./LandingTile";
 import FeatureTile from "./FeatureTile";
+import success from "../../models/success";
 
 function Landing() {
   return (
@@ -85,11 +86,11 @@ function Landing() {
           accusamus voluptatum consequatur vero quod dolorum aliquam maiores
           adipisicing elit.
         </p>
-        <div className="m-5 md:m-10 flex flex-col md:flex-row gap-5 lg:mx-20 xl:mx-44 2xl:mx-64">
+        <div className="m-5 md:m-10 flex flex-col md:flex-row gap-5 lg:mx-20 xl:mx-32 2xl:mx-64">
           <Fade>
-            <LandingTile />
-            <LandingTile />
-            <LandingTile />
+            {success.map((item) => (
+              <LandingTile data={item} />
+            ))}
           </Fade>
         </div>
       </div>
