@@ -1,4 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion";
+import LandingTile from "./LandingTile";
 
 function Landing() {
   return (
@@ -41,11 +42,32 @@ function Landing() {
           alt=""
         />
       </motion.div>
-      <div>
+      <div className="my-10">
         <p className="text-center font-head font-semibold text-xl">
           Trusted by teams at
         </p>
-        <div></div>
+        <div className="flex flex-wrap md:flex-nowrap md:gap-10 justify-center opacity-50">
+          <img
+            className="h-20 md:h-36"
+            src="https://raw.githubusercontent.com/aryanxarora/proview/landing-page/src/images/partners/1.png"
+            alt=""
+          />
+          <img
+            className="h-20 md:h-36"
+            src="https://raw.githubusercontent.com/aryanxarora/proview/landing-page/src/images/partners/2.png"
+            alt=""
+          />
+          <img
+            className="h-20 md:h-36"
+            src="https://raw.githubusercontent.com/aryanxarora/proview/landing-page/src/images/partners/4.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div className="m-5 md:m-10 flex flex-col md:flex-row gap-5">
+        <LandingTile />
+        <LandingTile />
+        <LandingTile />
       </div>
     </div>
   );
