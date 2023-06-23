@@ -76,11 +76,21 @@ function Landing() {
         </Fade>
       </div>
       {/* Success Generation Tiles */}
-      {/* <div className="m-5 md:m-10 flex flex-col md:flex-row gap-5">
-        <LandingTile />
-        <LandingTile />
-        <LandingTile />
-      </div> */}
+      <Fade>
+        <h1 className="text-3xl font-black text-center my-5 font-sans lg:text-5xl">
+          Success Generation{" "}
+        </h1>
+        <p className="mx-5 mb-10 text-slate-500 font-sans text-[1rem] leading-relaxed lg:text-xl text-center lg:mx-20 xl:mx-64 2xl:mx-96">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+          accusamus voluptatum consequatur vero quod dolorum aliquam maiores
+          adipisicing elit.
+        </p>
+        <div className="m-5 md:m-10 flex flex-col md:flex-row gap-5 lg:mx-20 xl:mx-44 2xl:mx-64">
+          <LandingTile />
+          <LandingTile />
+          <LandingTile />
+        </div>
+      </Fade>
     </div>
   );
 }
