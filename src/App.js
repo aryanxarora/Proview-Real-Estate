@@ -1,12 +1,14 @@
-import HeadingTile from './components/HeadingTile';
+import Landing from './components/Landing/Landing';
+import Listing from './components/Listing';
 import Navbar from './components/Navbar';
 import './styles/App.css';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <HeadingTile />
+      <Navbar cta={"Contact Us"} />
+      <Landing />
+      {/* <Listing /> */}
     </div>
   );
 }

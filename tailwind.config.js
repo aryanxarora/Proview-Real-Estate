@@ -14,6 +14,8 @@ module.exports = {
     },
     fontFamily: {
       'sans' : ['Inter', 'ui-sans-serif', 'system-ui'],
+      'head' : ['Poppins', 'ui-sans-serif', 'system-ui'],
+      'serif' : ['Playfair Display', 'ui-sans-serif', 'system-ui']
       // 'serif': ['Times Now', 'Georgia']
     },
     fontSize: {

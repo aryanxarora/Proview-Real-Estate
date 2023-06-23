@@ -8,5 +8,5 @@ img {
 }
 
 img::selection {
-  background-color: #FFFFFF;
+  background-color: #ffffff00;
 }
