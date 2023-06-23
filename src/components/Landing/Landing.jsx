@@ -52,17 +52,17 @@ function Landing() {
         <div className="flex flex-wrap md:flex-nowrap md:gap-10 justify-center opacity-50">
           <img
             className="h-20 md:h-36"
-            src="https://raw.githubusercontent.com/aryanxarora/proview/landing-page/src/images/partners/1.png"
+            src="https://github.com/aryanxarora/proview/blob/main/src/images/partners/1.png"
             alt=""
           />
           <img
             className="h-20 md:h-36"
-            src="https://raw.githubusercontent.com/aryanxarora/proview/landing-page/src/images/partners/2.png"
+            src="https://github.com/aryanxarora/proview/blob/main/src/images/partners/2.png"
             alt=""
           />
           <img
             className="h-20 md:h-36"
-            src="https://raw.githubusercontent.com/aryanxarora/proview/landing-page/src/images/partners/4.png"
+            src="https://github.com/aryanxarora/proview/blob/main/src/images/partners/4.png"
             alt=""
           />
         </div>
