@@ -1,5 +1,7 @@
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
+import Fade from "react-reveal/Fade";
 import LandingTile from "./LandingTile";
+import FeatureTile from "./FeatureTile";
 
 function Landing() {
   return (
@@ -64,11 +66,21 @@ function Landing() {
           />
         </div>
       </div>
-      <div className="m-5 md:m-10 flex flex-col md:flex-row gap-5">
-        <LandingTile />
-        <LandingTile />
-        <LandingTile />
+
+      {/* Features Tiles */}
+      <div className="mx-5 my-20 lg:mx-20 xl:mx-44 2xl:mx-64">
+        <Fade>
+          <FeatureTile />
+          <FeatureTile />
+          <FeatureTile />
+        </Fade>
       </div>
+      {/* Success Generation Tiles */}
+      {/* <div className="m-5 md:m-10 flex flex-col md:flex-row gap-5">
+        <LandingTile />
+        <LandingTile />
+        <LandingTile />
+      </div> */}
     </div>
   );
 }
