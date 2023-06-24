@@ -7,6 +7,7 @@ import Landing from './components/Landing/Landing';
 import Listing from './components/Listing';
 import Navbar from './components/Navbar';
 import './styles/App.css';
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/listing" element={<Listing />}/>
+          <Route path="/contact" element={<Contact />}/>
         </Routes>
       </Router>
     </div>
