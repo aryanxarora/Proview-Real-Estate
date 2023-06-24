@@ -3,6 +3,7 @@ import Fade from "react-reveal/Fade";
 import LandingTile from "./LandingTile";
 import FeatureTile from "./FeatureTile";
 import success from "../../models/success";
+import { Link } from "react-router-dom";
 
 function Landing() {
   return (
@@ -26,18 +27,16 @@ function Landing() {
           nemo repellendus.
         </p>
         <div className="flex gap-3 md:gap-5">
-          <a
-            href=""
-            className="text-md md:text-xl bg-black border-2 border-black text-white font-bold px-7 py-2 rounded-3xl my-2"
-          >
-            Get Started
-          </a>{" "}
-          <a
-            href=""
-            className="text-md md:text-xl text-center bg-white border-2 border-black text-black font-bold px-7 py-2 rounded-3xl my-2"
-          >
-            Learn More
-          </a>
+          <Link to="/partner">
+            <p className="text-md md:text-xl bg-black border-2 border-black text-white font-bold px-7 py-2 rounded-3xl my-2">
+              Get Started
+            </p>
+          </Link>
+          <Link to="/listing">
+            <p className="text-md md:text-xl text-center bg-white border-2 border-black text-black font-bold px-7 py-2 rounded-3xl my-2">
+              View Listings
+            </p>
+          </Link>
         </div>
         <img
           className="mt-10 md:mt-0"
