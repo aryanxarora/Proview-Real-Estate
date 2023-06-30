@@ -7,7 +7,12 @@ function IconInfo() {
   return (
     <div className="grid grid-cols-2 gap-y-5 lg:w-1/2 lg:gap-y-10 text-slate-500">
       <div>
-        <HomeRoundedIcon fontSize="medium" />
+        <img
+          width="20"
+          height="20"
+          src="https://img.icons8.com/android/24/636363/bedroom.png"
+          alt="bedroom"
+        />
         <p className="text-md">7 Rooms</p>
       </div>
       <div>

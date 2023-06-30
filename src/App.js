@@ -4,10 +4,10 @@ import {
   Route
 } from "react-router-dom";
 import Landing from './components/Landing/Landing';
-import Listing from './components/Listing';
+import Listing from './components/Listing/Listing';
 import Navbar from './components/Navbar';
 import './styles/App.css';
-import Contact from "./components/Contact";
+import Contact from "./components/Templates/Contact";
 
 function App() {
   return (

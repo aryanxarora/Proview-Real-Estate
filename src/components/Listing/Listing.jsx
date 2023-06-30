@@ -1,9 +1,9 @@
-import HeadingTile from "./HeadingTile";
+import Slideshow from "../Templates/Slideshow";
 
 export default function Listing() {
   return (
     <div>
-      <HeadingTile />
+      <Slideshow />
     </div>
   );
 }
