@@ -83,7 +83,7 @@ function Landing() {
           accusamus voluptatum consequatur vero quod dolorum aliquam maiores
           adipisicing elit.
         </p>
-        <div className="m-5 md:m-10 flex flex-col md:flex-row gap-5 lg:mx-20 xl:mx-32 2xl:mx-64">
+        <div className="m-5 md:m-10 flex flex-col md:flex-row gap-5 lg:mx-20 xl:mx-32 2xl:mx-64 z-0">
           {success.map((item) => (
             <LandingTile data={item} />
           ))}

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Navbar({ cta }) {
   return (
-    <nav className="flex items-center p-5 lg:px-10 sticky top-0 bg-white z-10">
+    <nav className="flex items-center p-5 lg:px-10 sticky top-0 bg-white z-20">
       <div className="basis-1/2">
         <Link to="/">
           <img
