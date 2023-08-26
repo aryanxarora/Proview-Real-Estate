@@ -20,7 +20,9 @@ function LandingTile({ data }) {
           </h1>
           <p className="text-sm mt-10">
             {/* <span className="text-slate-400">in</span>{" "} */}
-            <span className="font-medium underline">{data.subcontent}</span>
+            <a href="#" className="font-medium underline">
+              Learn More
+            </a>
           </p>
         </div>
         <div className="bg-black absolute inset-0 w-full rounded-xl h-full opacity-50"></div>

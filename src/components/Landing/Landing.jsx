@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import Fade from "react-reveal/Fade";
 import LandingTile from "./LandingTile";
 import FeatureTile from "./FeatureTile";
 import success from "../../models/success";
+import features from "../../models/features";
 import { Link } from "react-router-dom";
 
 function Landing() {
@@ -69,16 +69,14 @@ function Landing() {
 
       {/* Features Tiles */}
       <div className="mx-5 my-20 lg:mx-20 xl:mx-44 2xl:mx-64">
-        <Fade>
-          <FeatureTile />
-          <FeatureTile />
-          <FeatureTile />
-        </Fade>
+        {features.map((item) => (
+          <FeatureTile data={item} />
+        ))}
       </div>
       {/* Success Generation Tiles */}
       <div>
         <h1 className="text-3xl font-black text-center my-5 font-sans lg:text-5xl">
-          Success Generation{" "}
+          Work With Us{" "}
         </h1>
         <p className="mx-5 mb-10 text-slate-500 font-sans text-[1rem] leading-relaxed lg:text-xl text-center lg:mx-20 xl:mx-64 2xl:mx-96">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
@@ -86,11 +84,9 @@ function Landing() {
           adipisicing elit.
         </p>
         <div className="m-5 md:m-10 flex flex-col md:flex-row gap-5 lg:mx-20 xl:mx-32 2xl:mx-64">
-          <Fade>
-            {success.map((item) => (
-              <LandingTile data={item} />
-            ))}
-          </Fade>
+          {success.map((item) => (
+            <LandingTile data={item} />
+          ))}
         </div>
       </div>
     </div>

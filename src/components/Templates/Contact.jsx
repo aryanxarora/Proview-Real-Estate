@@ -47,7 +47,7 @@ function Contact() {
             type="text"
             name="user_name"
             placeholder="John Doe"
-            className="text-sm border border-solid border-black rounded-none w-full px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-purple-300"
+            className="text-sm border border-solid border-black rounded-none w-full px-4 py-2 mt-2 outline-none focus:ring-1 focus:ring-gray-900"
             required
           />
         </div>
@@ -57,7 +57,7 @@ function Contact() {
             type="email"
             name="user_email"
             placeholder="johndoe@acme.corp"
-            className="text-sm border border-solid border-black rounded-none w-full px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-purple-300"
+            className="text-sm border border-solid border-black rounded-none w-full px-4 py-2 mt-2 outline-none focus:ring-1 focus:ring-gray-900"
             required
           />
         </div>
@@ -67,7 +67,7 @@ function Contact() {
             name="message"
             placeholder="Lorem ipsum set amet dolor."
             rows="10"
-            className="text-sm border border-solid border-black rounded-none w-full px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-purple-300"
+            className="text-sm border border-solid border-black rounded-none w-full px-4 py-2 mt-2 outline-none focus:ring-1 focus:ring-gray-900"
             required
           ></textarea>
         </div>
