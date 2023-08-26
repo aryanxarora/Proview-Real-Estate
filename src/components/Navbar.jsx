@@ -12,7 +12,7 @@ function Navbar({ cta }) {
           />
         </Link>
       </div>
-      <div className="basis-1/2 flex justify-end">
+      <div className="basis-1/2 flex justify-end items-center">
         <Link to="/contact">
           <p className="text-sm bg-black text-white font-bold px-5 py-2 rounded-3xl">
             {cta}
