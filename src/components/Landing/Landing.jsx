@@ -90,14 +90,14 @@ function Landing() {
         </div>
       </div>
       <div className="flex gap-10 justify-center items-center py-10">
-        <a href="#" target="_blank">
+        <a href="https://www.tiktok.com/@proviewrealty" target="_blank">
           <img
             src="https://raw.githubusercontent.com/aryanxarora/proview/31e95c2a82a78636ff4f963a01ea6b13ff14dc84/public/tiktok.svg"
             alt=""
             width="30px"
           />
         </a>
-        <a href="#" target="_blank">
+        <a href="https://www.instagram.com/proviewrealty/" target="_blank">
           <img
             src="https://raw.githubusercontent.com/aryanxarora/proview/31e95c2a82a78636ff4f963a01ea6b13ff14dc84/public/instagram.svg"
             alt=""
