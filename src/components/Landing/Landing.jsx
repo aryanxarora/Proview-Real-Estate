@@ -73,7 +73,7 @@ function Landing() {
       </div>
 
       {/* Features Tiles */}
-      <div className="mx-5 my-20 lg:mx-20 xl:mx-44 2xl:mx-64">
+      <div className="mx-6 my-20 lg:mx-20 xl:mx-44 2xl:mx-64">
         {features.map((item) => (
           <FeatureTile data={item} />
         ))}

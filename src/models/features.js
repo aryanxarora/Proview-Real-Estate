@@ -1,7 +1,7 @@
 const features = [
   {
     image:
-      "https://raw.githubusercontent.com/aryanxarora/proview/main/src/images/feature-1.png",
+      "https://raw.githubusercontent.com/aryanxarora/proview/main/src/images/feature1.png",
     title: "Leverage the power of video",
     content: "Unlock the true potential of your properties with the power of video. Elevate your listings, captivate your audience, and make your real estate stand out in stunning, cinematic fashion.",
   },
