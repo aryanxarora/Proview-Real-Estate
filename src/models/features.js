@@ -7,7 +7,7 @@ const features = [
   },
   {
     image:
-      "https://images.unsplash.com/photo-1602872029796-f4ab2010b10b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+      "https://raw.githubusercontent.com/aryanxarora/proview/main/src/images/feature2.png",
     title: "Automate your communication",
     content: "Streamline your outreach effortlessly. Automate your email and SMS marketing for real estate to engage clients at the perfect moment. Save time, personalize messages, and stay connected.",
   },
