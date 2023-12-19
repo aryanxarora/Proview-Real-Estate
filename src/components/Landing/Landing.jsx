@@ -48,19 +48,24 @@ function Landing() {
         <p className="text-center font-head font-semibold text-xl">
           Trusted by teams at
         </p>
-        <div className="flex flex-wrap md:flex-nowrap md:gap-10 justify-center opacity-50">
+        <div className="flex flex-wrap md:flex-nowrap md:gap-10 justify-center">
           <img
-            className="h-20 md:h-36"
+            className="h-20 md:h-36 opacity-70"
+            src="https://raw.githubusercontent.com/aryanxarora/proview/main/src/images/partners/5.png"
+            alt=""
+          />
+          <img
+            className="h-20 md:h-36 opacity-50"
             src="https://raw.githubusercontent.com/aryanxarora/proview/main/src/images/partners/1.png"
             alt=""
           />
           <img
-            className="h-20 md:h-36"
+            className="h-20 md:h-36 opacity-50"
             src="https://raw.githubusercontent.com/aryanxarora/proview/main/src/images/partners/2.png"
             alt=""
           />
           <img
-            className="h-20 md:h-36"
+            className="h-20 md:h-36 opacity-50"
             src="https://raw.githubusercontent.com/aryanxarora/proview/main/src/images/partners/4.png"
             alt=""
           />
