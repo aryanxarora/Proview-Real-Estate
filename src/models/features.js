@@ -1,7 +1,7 @@
 const features = [
   {
     image:
-      "https://images.unsplash.com/photo-1604709177595-ee9c2580e9a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+      "https://raw.githubusercontent.com/aryanxarora/proview/main/src/images/feature-1.png",
     title: "Leverage the power of video",
     content: "Unlock the true potential of your properties with the power of video. Elevate your listings, captivate your audience, and make your real estate stand out in stunning, cinematic fashion.",
   },
